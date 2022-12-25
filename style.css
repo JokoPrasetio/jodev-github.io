@@ -1,0 +1,110 @@
+/* navbar */
+
+
+/* utility || keseluruhan */
+
+body {
+    background-color: #f8f6f6;
+}
+
+.jumbotron h1 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* destkop version */
+
+@media (min-width: 992px) {
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid white;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+
+    }
+
+    .jumbotron {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    #about {
+        padding-top: 5rem;
+        background-color: #273036;
+        color: white;
+        padding-bottom: 2rem;
+    }
+
+    #about .container {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+
+
+    #kontak {
+        background-color: #273036;
+        color: white;
+        margin-bottom: 1rem;
+    }
+
+    #kontak .container .row .col {
+        margin-top: 1rem;
+    }
+
+    #kontak .container .kolom {
+        margin-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    #projek {
+        padding-top: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+/* mobile version */
+
+@media (min-width: 300px) {
+    .jumbotron {
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .jumbotron img {
+        margin-top: 5rem;
+    }
+
+    #about {
+        padding-top: 5rem;
+        margin-top: 1rem;
+        background-color: #273036;
+        color: white;
+        padding-bottom: 2.4rem;
+    }
+
+    #projek {
+        padding-top: 3.5rem;
+        margin-top: 2rem;
+    }
+
+    #kontak {
+        margin-top: 2rem;
+        background-color: #273036;
+        color: white;
+    }
+
+    #kontak .contact {
+        margin-bottom: 20px;
+
+    }
+}
