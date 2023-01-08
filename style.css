@@ -1,110 +1,84 @@
-/* navbar */
-
-
 /* utility || keseluruhan */
-
 body {
-    background-color: #f8f6f6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-brand{
+    font-weight: 600;
 }
 
 .jumbotron h1 {
-    margin-top: 20px;
+    margin-top: 7rem;
+    font-family: "calibri";
     font-weight: bold;
 }
-
-/* destkop version */
-
-@media (min-width: 992px) {
-    .nav-link:hover::after {
-        content: '';
-        display: block;
-        border-bottom: 3px solid white;
-        width: 50%;
-        margin: auto;
-        padding-bottom: 5px;
-        margin-bottom: -8px;
-
-    }
-
-    .jumbotron {
-        margin-top: 1rem;
-        margin-bottom: 3rem;
-    }
-
-    #about {
-        padding-top: 5rem;
-        background-color: #273036;
-        color: white;
-        padding-bottom: 2rem;
-    }
-
-    #about .container {
-        margin-top: 1rem;
-        margin-bottom: 3rem;
-    }
-
-
-
-    #kontak {
-        background-color: #273036;
-        color: white;
-        margin-bottom: 1rem;
-    }
-
-    #kontak .container .row .col {
-        margin-top: 1rem;
-    }
-
-    #kontak .container .kolom {
-        margin-top: 1rem;
-        padding-bottom: 2rem;
-    }
-
-    #projek {
-        padding-top: 4rem;
-        margin-bottom: 3rem;
-    }
-
-    footer a {
-        text-decoration: none;
-        color: black;
-    }
+.jumbotron .gambar2{
+    margin-top: 3rem;
 }
-
-/* mobile version */
-
-@media (min-width: 300px) {
-    .jumbotron {
-        padding-top: 2rem;
-        margin-bottom: 2rem;
-
+#about{
+    margin-top: 1rem;
+    background-color: #a2d9ff;
+}
+#about h2{
+    margin-top: 1.2rem;
+    font-weight: bold;
+}
+#about p{
+    margin-bottom: 3rem;
+    font-weight: 100;
+}
+.panel{
+    margin-top: -2rem;
+}
+.info-panel{
+    box-shadow: 0 3px 28px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    background-color: white;
+    padding: 40px;
+    
+}
+.info-panel img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.info-panel h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.info-panel p{
+    font-size: 14px;
+    color: rgb(107, 105, 105);
+    font-weight: 200;
+}
+/* destkop version */
+@media(min-width: 992px)  {
+    .nav-link{
+        margin-right: 33px;
     }
-
-    .jumbotron img {
-        margin-top: 5rem;
+    .jumbotron h1 {
+        margin-top: 7rem;
+        font-family: "calibri";
+        font-weight: bold;
     }
-
-    #about {
-        padding-top: 5rem;
+    .jumbotron .gambar2{
+        margin-top: 9rem;
+    }
+    #about{
         margin-top: 1rem;
-        background-color: #273036;
-        color: white;
-        padding-bottom: 2.4rem;
+        background-color: #007dd6;
+        color: whitesmoke
     }
-
-    #projek {
-        padding-top: 3.5rem;
-        margin-top: 2rem;
+    #about h2{
+        margin-top: 5rem;
+        font-weight: bold;
     }
-
-    #kontak {
-        margin-top: 2rem;
-        background-color: #273036;
-        color: white;
+    #about p{
+        margin-bottom: 20rem;
+        font-weight: 100;
     }
-
-    #kontak .contact {
-        margin-bottom: 20px;
-
+    .panel{
+        margin-top: -14rem;
     }
+    
 }
