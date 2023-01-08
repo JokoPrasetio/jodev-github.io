@@ -84,6 +84,9 @@ footer {
     color: white;
     text-align: center;
   }
+  footer a{
+    text-decoration: none;
+  }
 footer p{
     margin-top: 1rem;
 }  
